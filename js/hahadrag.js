@@ -9,7 +9,19 @@ $(function(){
 	$("ul li").each(function(){
 		$(this).on("dragover",function(ev){
 			ev.preventDefault();
+
+			$(ev.target).css("background","pink");
 		});
+		$(this).on("dragleave",function(ev){
+			ev.preventDefault();
+
+			$(ev.target).css("background","");
+		})
+		$(this).on("dragend",function(ev){
+			// window.location.reload();
+			console.log(ev.target);
+			$(ev.target).parent("li").css("background","");
+		})
 		$(this).on("drop",function(ev){
 
 			ev.preventDefault();

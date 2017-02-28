@@ -1,6 +1,6 @@
 /*css reset code */
 
-/****  ���х�ф抄�����羶�����鐃�,羌ｏ申1em=10px *****/
+
 body {
 font-size:70%;
 } /* for IE/Win */
@@ -8,7 +8,7 @@ html>body {
 font-size:12px;
 } /* for everything else */
 
-/*��罎丞���茹���膸�紊��究信絳��*/
+
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
  padding: 0;
  margin: 0;
@@ -48,7 +48,7 @@ text-decoration:none;
 }
 
 
-.lis{width: 100%;height: 50px;border: solid 2px red; margin:10px;}
+.lis{width: 600px;height: 50px;border: solid 2px red; margin:10px;}
 .nodes{color: green;margin: 10px;width: 50px;height: 30px;border: solid 1px blue;}
 
 
